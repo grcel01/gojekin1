@@ -1062,7 +1062,7 @@ $detail_voucher = curl('https://api.gojekapi.com/gopoints/v3/wallet/vouchers?lim
  echo "\n".color("nevy","Mau Cek Paylater?: y/n ");
         $pilihan = trim(fgets(STDIN));
         if($pilihan == "y" || $pilihan == "Y"){
-        echo color("red","===========(CHECK PAYLATER)===========")."\n";
+        echo color("red","=(SUBCRIBE KURANG BERUNTUNG CHANEL UTK CHECK PAYLATER)=")."\n";
         sleep (5);
  $paylater = curl('https://api.gojekapi.com/paylater/v1/user/profile', null, $header);
  $duit = json_decode($paylater[0]);
